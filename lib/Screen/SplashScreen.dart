@@ -26,17 +26,15 @@ class _SplashscreenState extends State<Splashscreen> {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: Colors.pink,
-        child: Column(
-          children: [
-            Text('Hello All'),
-            Image(image: AssetImage('assets/image/alapuzha.jpg'),
-            height: 80,
-              width: 60,
-            )
-
-          ],
-        ),
+        color: Colors.grey,
+        child: Center(
+          child: Column(
+            children: [
+              Image(image: AssetImage('assets/items/HamBurger.jpg')),
+              Text(' K M Restaurant ',style: TextStyle(fontSize: 40,fontStyle: FontStyle.italic),),
+            ],
+          ),
+        )
       ),
     );
   }

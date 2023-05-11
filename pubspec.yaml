@@ -39,6 +39,12 @@ dependencies:
   firebase_core:
   firebase_auth:
   firebase_storage:
+  flutter_zoom_drawer: ^3.0.4+1
+  shared_preferences:
+  path_provider:
+  sqflite:
+  badges: ^3.1.1
+  provider:
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -70,6 +76,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/image/
+    - assets/items/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
